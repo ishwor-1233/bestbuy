@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bestbuy.com</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="Topbar">
+          <!-- <i class="fa-solid fa-cart-shopping">Cart</i> -->
+          <div>
+            <a href="#">Yardbird </a>
+          </div>
+          <div>
+            <a href="#">Best Buy outlets</a>
+          </div>
+          <div>
+            <a href="#">Best Buy Business</a>
+          </div>
+
+          <div>
+            <a href="#">Shop with an Export</a>
+          </div>
+        </div>
+        <div class="navbar">
+          <div class="logo">
+            <img
+              src="./image/img2-removebg-preview.png"
+              alt="Best Buy Logo"
+              height="100px"
+              width="100px"
+            />
+          </div>
+
+          <div class="menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xml:space="preserve"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              role="img"
+              class="open-hamburger-icon"
+              fill="white"
+              height="32"
+              width="32"
+            >
+              <path
+                d="M19.25 7.5H4.75c-.41 0-.75-.34-.75-.75S4.34 6 4.75 6h14.5c.41 0 .75.34.75.75s-.34.75-.75.75m0 5.25H4.75c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h14.5c.41 0 .75.34.75.75s-.34.75-.75.75m0 5.25H4.75c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h14.5c.41 0 .75.34.75.75s-.34.75-.75.75"
+              ></path>
+            </svg>
+            Menu
+          </div>
+
+          <div class="search-bar">
+            <input type="text" placeholder="What can we help you find today?" />
+            <button>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg"
+                alt="Search"
+                style="width: 20px"
+              />
+            </button>
+          </div>
+          <div class="icons">
+            <div >
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24" aria-hidden="true" role="img" width="30" height="31" fill="#fff"><path d="M19.5 22H4.25C3.01 22 2 20.99 2 19.75v-10c0-.41.34-.75.75-.75s.75.34.75.75v10c0 .41.34.75.75.75H19.5c.55 0 1-.45 1-1v-8.25c0-.41-.34-.75-.75-.75h-3c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3C20.99 9 22 10.01 22 11.25v8.25a2.5 2.5 0 0 1-2.5 2.5"></path><path d="M16.25 14.5h-8.5c-.41 0-.75.34-.75.75v6c0 .41.34.75.75.75s.75-.34.75-.75V16h2.75v5.25c0 .41.34.75.75.75s.75-.34.75-.75V16h2.75v5.25c0 .41.34.75.75.75s.75-.34.75-.75v-6c0-.41-.34-.75-.75-.75M15.75 12.5H5.25a.75.75 0 0 1-.53-.22l-3-3a.75.75 0 0 1-.22-.53v-3.5c0-.2.08-.39.22-.53l3-3a.75.75 0 0 1 .53-.22h10.5c.96 0 1.75.79 1.75 1.75v7.5c0 .96-.79 1.75-1.75 1.75M5.56 11h10.19c.14 0 .25-.11.25-.25v-7.5c0-.14-.11-.25-.25-.25H5.56L3 5.56v2.88z"></path><path d="M6 7c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1"></path></svg>
+              <a href="" style="text-decoration: none;color: white;font-size: 20px;">Aiea</a></div>
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24" aria-hidden="true" role="img" width="30" height="31" fill="#fff"><path d="M19.5 22H4.25C3.01 22 2 20.99 2 19.75v-10c0-.41.34-.75.75-.75s.75.34.75.75v10c0 .41.34.75.75.75H19.5c.55 0 1-.45 1-1v-8.25c0-.41-.34-.75-.75-.75h-3c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3C20.99 9 22 10.01 22 11.25v8.25a2.5 2.5 0 0 1-2.5 2.5"></path><path d="M16.25 14.5h-8.5c-.41 0-.75.34-.75.75v6c0 .41.34.75.75.75s.75-.34.75-.75V16h2.75v5.25c0 .41.34.75.75.75s.75-.34.75-.75V16h2.75v5.25c0 .41.34.75.75.75s.75-.34.75-.75v-6c0-.41-.34-.75-.75-.75M15.75 12.5H5.25a.75.75 0 0 1-.53-.22l-3-3a.75.75 0 0 1-.22-.53v-3.5c0-.2.08-.39.22-.53l3-3a.75.75 0 0 1 .53-.22h10.5c.96 0 1.75.79 1.75 1.75v7.5c0 .96-.79 1.75-1.75 1.75M5.56 11h10.19c.14 0 .25-.11.25-.25v-7.5c0-.14-.11-.25-.25-.25H5.56L3 5.56v2.88z"></path><path d="M6 7c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1"></path></svg>
+              <a href="" style="text-decoration: none;color: white; font-size: 20px;">Cart</a></div></div>
+          </div>
+        </div>
+        <hr style="color: white" />
+        <div class="lastbar">
+          <div class="lastbar1">
+            <div><a href="">Cyber Deals</a></div>
+            <div>
+            <a href="">Cyber Deals</div>
+            <div> <a href="">Deal of the Day</a></div>
+            <div>
+            <a href="">Gift Ideas</a></div>
+            <div><a href="">Yes best buy sells that</a></div>
+            <div><a href="" style="text-decoration: none;">More</a></div>
+            
+           
+            
+            
+          </div>
+
+          <div class="lastbar1">
+           <div><a href="" style="text-decoration: none;">Account</a></div>
+           <div><a href=""style="text-decoration: none;">Recently viewed</a></div>
+           <div><a href=""
+            style="text-decoration: none;">order status</a></div>
+           <div><a href=""style="text-decoration: none;">saved items</a></div>
+          </div>
+        </div>
+        <hr style="border: 2px solid white;">
+        <div class="final">
+          <div style="color: yellow;"><h1>Cyber Monday Flesh Sale</h1></div>
+          <div><p>Today only. Shop in store and online.</p></div>
+          <div><a href="" class="shop">shop now</a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      
+        <section style="background-color: darkblue;">
+          <div class="mainpart">
+            
+        <div style="color: Yellow;  padding: 20px;">
+          <h1 style="font-size: 75px;">
+            Save <br> up to <br>50%
+          </h1>
+          <br>
+          <p style="font-size: 30px; color: white;">with Cyber Monday Savings Events</p>
+          <br>
+          <button style="background-color: yellow; color: black;border-radius: 5%;height: 40px; width: 100px ;">Shop Now</button>
+        </div>
+        <div>
+           <div class="image">
+            <div class="image1">
+              <img src="./image/main image 1.avif" alt="" height="100px" width="200px">
+              <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+            </div>
+
+            <div class="image1">
+              <img src="./image/main image 2.avif" alt=""height="100px" width="200px">
+              <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+
+            </div>
+
+            <div class="image1">
+            <img src="./image/main image3.avif" alt=""height="100px" width="200px">
+            <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+          
+          </div>
+            
+            <div class="image1">
+              <img src="./image/main img4.avif" alt=""height="100px" width="200px">
+              <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+            </div>
+            
+            <div class="image1">
+              <img src="./image/main img5.avif" alt=""height="100px" width="200px">
+              <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+            </div>
+           
+            <div class="image1">
+              <img src="./image/main image 6.avif" alt=""height="100px" width="200px">
+              <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+            </div>
+            
+           <div class="image1">
+            <img src="./image/main img 7.avif" alt=""
+            height="100px" width="200px">
+             <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+            
+           </div>
+
+           <div class="image1">
+            <img src="./image/main image 8.avif" alt=""
+            height="100px" width="200px">
+             <h2>Save onbr all<br> Samsung, LG and <br> Sony 75" & up <br> TVs</h2>
+              <br>
+              <a href="" style="text-decoration: none; color: blue; ">shop now</a>
+           </div>
+            </div>
+        </div>
+          </div>
+
+          <div>
+            <div style="color: white; padding: 20px;">
+              <p>Shop deals by category</p>
+            </div>
+            <div class="lower">
+              <div class="lowerimg">
+                <img src="./image/lowerimg1.webp" alt="" height="100px" width="100px" class="lowerimg">
+                <p style="color: orange;">Exclusive <br> Member Deals </p>
+              </div>
+              <div >
+                <img src="./image/main image 1.avif" alt=""height="100px" width="100px" class="lowerimg">
+                <p style="color: orange;">TVs & Projectors </p>
+              </div>
+              <div >
+                <img src="./image/lowerimg3.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                
+                <p style="color: orange;">Laptops & Computers </p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/lowerimg4.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                <p style="color: orange;">Apple </p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/lowerimg5.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                <p style="color: orange;">Video Games,<br> VR & Collectibles</p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/lowerimg6.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                 <p style="color: orange;">Major Appliances</p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/main image 6.avif" alt=""height="100px" width="100px"
+                class="lowerimg">
+                 <p style="color: orange;">Headphones</p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/lowerimg8.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                 <p style="color: orange;">Cell Phones & <br> Accessories</p>
+              </div>
+              <div class="lowerimg">
+                <img src="./image/lowerimg9.webp" alt=""height="100px" width="100px"
+                class="lowerimg">
+                 <p style="color: orange;">Sound Bars,<br> Bluetooth <br>Speakers & <br>Home Audi</p>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section style="padding: 20px;">
+        <div>
+          <h1>New Arrival</h1>
+        </div>
+        <hr>
+        <div class="middlebar">
+          <div class="middlebar1">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0b24d8e2-f6a5-4c6f-ae5f-39ce4e25af79.jpg;maxHeight=640;maxWidth=550;format=webp" alt="" height="100px" width="100px">
+            <div>
+              <a style="text-decoration: none;" href="">CLX - SET Gaming <br>Desktop - AMD  </a>
+            </div>
+          </div>
+          <div class="middlebar1">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6b46488d-0489-4822-896b-6bc2fbe0a970.jpg;maxHeight=640;maxWidth=550;format=webp" alt="" height="100px" width="200px" >
+            <div style="margin-top: 20px;">
+              <a style="text-decoration: none;" href="">Apple - MacBook Air 13-inch <br> Apple M3 chip Built for Apple</a>
+            </div>
+           </div>
+          <div class="middlebar1">
+             
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/49b73735-3356-4483-9629-a53b6dab1d24.jpg;maxHeight=640;maxWidth=550;format=webp" alt="" height="150px" width="150px">
+              <div>
+                <a style="text-decoration: none;" href="">Vornado Velocity Cube 5S <br> Whole Room Space Heater</a>
+              </div>
+            
+          </div>
+          <div class="middlebar1">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c82e4d7a-b4ff-45b5-909b-b4dac7f4c0ed.jpg;maxHeight=640;maxWidth=550;format=webp" alt="" height="100px">
+            <div style="margin-top: 20px;">
+               <a style="text-decoration: none;" href="">Sony - PlayStation 5 Slim <br> Console Digital Edition</a>
+            </div>
+          </div>
+          <div class="middlebar1">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21069b88-5705-4727-9489-51771a72c76c.jpg;maxHeight=640;maxWidth=550;format=webp" alt="" height="150px" width="150px">
+
+            <div style="margin-top: 20px;">
+              <a style="text-decoration: none;" href="">Solo Stove - Mesa XL <br> Firepit -  Gunmetal Metallic</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="seprate">
+          <div class="seprate1">
+            <button style="display: flex; color: white; background-color: blue; gap: 10px;"><p style="color: orange;">Outlet</p> Deals</button>
+            <br>
+            <div style="display: flex; gap: 20px; align-items: center;">
+              <a href="" style="color: black; text-decoration: none; font-size: 20px; "><h1 style="color: darkred;">Clearence</h1>Open-box <br> And More </a>
+              <div style="font-size: 20px;">
+                <p>Save when you shop the Best Buy Outlet for <br> clearance, open-box, refurbished and pre-owned items.</p>
+                <button style="background-color: white;color: blue;">View Outlet Deals</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="seprate1">
+            <div>
+              <h1>25 Days of Deals</h1>
+            </div>
+            <hr>
+            <div style="display: flex; align-items: center; padding: 20px;gap: 10px;">
+              <div>
+                <img src="./image/seperate image.webp" alt="" height="200px" width="200px">
+              </div>
+              <div>
+                <a href="">Therabody - Theragun Prime Massage Gun <br>(5th Generation) - Adventure Green</a>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="james">
+          <div>
+            <div style="display: flex; align-items: center;">
+              
+            <p style="color: yellow;">App exclusive</p>
+
+            
+            </div>
+            <br>
+           <h1 style="color: white; font-size: 20px;">DROPS</h1>
+           <br>
+            <p style="color: white;">Snag limited product <br> releases and additional <br> savings – only in the app.</p>
+            <br>
+
+            <button style="background-color: yellow; height: 20px; width: 100px; border-radius: 10%;"><a href="" style="text-decoration: none;color: black;">Get The App</a></button>
+          </div>
+          <div class="james1">
+            <div style="background-color: gray; height: 20px;">
+              <ul type="circle">
+                <li>Drops <b>Today</b></li>
+              </ul>
+            </div>
+            <div style="display: flex; justify-content: center;">
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/21069b88-5705-4727-9489-51771a72c76c.jpg" alt="oven" height="100px" width="100px">
+            </div>
+            <div>
+              Solo Stove - Mesa XL Firepit - Gunmeta
+            </div>
+          </div>
+
+          <div class="james1">
+            <div style="background-color: gray; height: 20px;">
+              <ul type="circle">
+                <li>Drops <b>Tomarrow</b></li>
+              </ul>
+            </div>
+            <div style="display: flex; justify-content: center;">
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6b462002-139e-419a-9e85-6db16086e01e.jpg" height="100px" width="100px" alt="silver wolf" >
+            </div>
+            <div>
+              HYTE Y70 Silver Wolf Honkai Star Rail Mid
+            </div>
+          </div>
+
+
+          <div class="james1">
+            <div style="background-color: gray; height: 20px;">
+              <ul type="circle">
+                <li>Drops <b>12/09</b></li>
+              </ul>
+            </div>
+            <div style="display: flex; justify-content: center;">
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2ab1881d-716d-4166-b533-4ef780a32346.jpg" alt="" height="100px" width="100px">
+            </div>
+            <div>
+              bella PRO - DoubleUp Oven with Probe Thermometer -
+            </div>
+          </div>
+
+
+          <div class="james1">
+            <div style="background-color: gray; height: 20px;">
+              <ul type="circle">
+                <li>Drops <b>12/10</b></li>
+              </ul>
+            </div>
+             <div style="display: flex; justify-content: center;">
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/164ed653-c86a-46cc-819e-0133b59b98c6.jpg" alt="" height="100px" width="100px">
+            </div>
+            <div>
+              Ulta - $50 Gift Card [Digital]
+            </div>
+
+          </div>
+
+
+          <div class="james1">
+            <div style="background-color: gray; height: 20px;">
+              <ul type="circle">
+                <li>Drops <b>12/10</b></li>
+              </ul>
+            </div>
+            <div style="display: flex; justify-content: center;">
+              <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c693a119-2a9a-4682-a1a9-32be164e02cf.jpg" alt="" height="100px" width="100px">
+            </div>
+            <div>
+              Fujifilm - INSTAX MINI 12 Holiday Bundle - Lilac
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div style="margin-top: 20px;">
+        <img src="./image/singleimg1.jpg" alt="" height="400px">
+      </div>
+      
+    </main>
+  </body>
+</html>

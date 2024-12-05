@@ -204,3 +204,59 @@
   border-radius: 10%;
   padding: 10px;
 }
+
+.position {
+  list-style-position: inside;
+}
+
+.point {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.point1 {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.hari {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.hari1 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.random {
+  background-image: url("./image/bgimg\ couple\ img.jpg");
+  height: 330px;
+  display: flex;
+  gap: 50px;
+}
+
+.random1 {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  max-width: 300px;
+}
+.random1 a {
+  text-decoration: none;
+  color: yellow;
+}
+.random2 {
+  padding: 30px;
+  gap: 10px;
+  display: flex;
+}
+
+.random3 {
+  background-color: white;
+  color: blue;
+  padding: 30px;
+  height: 280px;
+  border-radius: 5%;
+}

@@ -260,3 +260,18 @@
   height: 280px;
   border-radius: 5%;
 }
+
+.flow {
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.flow1 {
+  background-color: blueviolet;
+  padding: 40px;
+  max-width: 700px;
+  max-height: 600px;
+}

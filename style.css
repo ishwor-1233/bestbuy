@@ -275,3 +275,72 @@
   max-width: 700px;
   max-height: 600px;
 }
+
+.dotted {
+  padding: 20px;
+  border: 1px solid black;
+  height: 400px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dotted a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.same {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.limited {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+.learn {
+  background-color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10%;
+}
+.learn a {
+  text-decoration: none;
+}
+
+.learn:hover {
+  background-color: blue;
+}
+
+.end {
+  background-color: gray;
+}
+
+.best {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product ul {
+  list-style: none;
+}
+.product ul a {
+  text-decoration: none;
+}
+
+.foot {
+  background-color: white;
+  padding: 20px;
+}
+
+.foot1 {
+  display: flex;
+  padding: 20px;
+}
